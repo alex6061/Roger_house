@@ -1,0 +1,50 @@
+.hello {
+  padding-top: 202px;
+}
+
+.hello__name {
+  font-family: Arial,sans-serif;
+  color: #1C1C1C;
+  font-size: 111px;
+  line-height: 128px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 59px;
+}
+
+.hello__text {
+  display: block;
+  font-family: Arial,sans-serif;
+  font-size: 50px;
+  line-height: 70px;
+  color: $textcolor;
+  padding-bottom: 23px;
+}
+
+.hello__link {
+  text-decoration: none;
+  color: #9EA080;
+}
+
+.hello__box {
+  float: right;
+}
+.hello__box__img {
+  position: absolute;
+}
+.hello__box__text {
+  position: relative;
+  top: 76px;
+  left: 44px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  color: #9EA080;
+}
+
+

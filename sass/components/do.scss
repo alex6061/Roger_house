@@ -1,0 +1,54 @@
+
+.do__title {
+  text-align: center;
+  font-family: Arial,sans-serif;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 34px;
+
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  color: #9EA080;
+  padding-bottom: 57px;
+}
+
+.do_workers {
+  display: block;
+  margin: 0 auto;
+}
+
+.do__workers__text {
+  margin: 21px 0 108px;
+
+  font-family: Arial,sans-serif;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+
+  color: #1C1C1C;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex__item {
+  &:last-child {
+   position: relative;
+    top: 650px;
+  }
+}
+
+
+
+
+
+
+
+
+
+

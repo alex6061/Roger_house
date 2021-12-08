@@ -1,0 +1,57 @@
+.man {
+  padding-top: 407px;
+}
+
+.man__img {
+  display: block;
+  margin: 0 auto;
+  //position: absolute;
+}
+
+.man_list {
+  display: flex;
+}
+
+.man__box__text {
+  font-family: Arial,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 153px;
+  line-height: 176px;
+
+  letter-spacing: 2px;
+
+  color: #1C1C1C;
+
+}
+
+.by {
+  position: relative;
+  top: -501px;
+  left: 191px;
+}
+
+.way {
+  position: relative;
+  top: -379px;
+  left: -157px;
+}
+
+.it {
+  position: relative;
+  top: -235px;
+  left: -434px;
+}
+
+.the {
+  position: relative;
+  top: -501px;
+  left: -138px;
+}
+
+.me {
+  position: relative;
+  top: -235px;
+  left: -450px;
+}
+
