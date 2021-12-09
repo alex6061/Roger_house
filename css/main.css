@@ -72,6 +72,7 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
 body {
   background: #F2F2F2;
 }
@@ -89,7 +90,7 @@ body {
 .hero-text {
   text-align: center;
   font-size: 26px;
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   line-height: 34px;
   color: #000000;
   margin-bottom: 20px;
@@ -99,13 +100,14 @@ h1 {
   display: flex;
   text-transform: uppercase;
   justify-content: center;
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 400;
   font-size: 160px;
   letter-spacing: -15px;
   color: #1C1C1C;
   z-index: 2;
 }
+
 h1 .hero_o {
   position: relative;
   top: -33px;
@@ -114,6 +116,7 @@ h1 .hero_o {
   font-size: 201px;
   z-index: 1;
 }
+
 h1 .hero_u {
   position: relative;
   top: -33px;
@@ -127,7 +130,7 @@ h1 .hero_u {
 }
 
 .hello__name {
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   color: #1C1C1C;
   font-size: 111px;
   line-height: 128px;
@@ -138,7 +141,7 @@ h1 .hero_u {
 
 .hello__text {
   display: block;
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 50px;
   line-height: 70px;
   color: #000000;
@@ -172,34 +175,6 @@ h1 .hero_u {
   color: #9EA080;
 }
 
-.comics {
-  padding-top: 102px;
-}
-
-.comics-box {
-  display: flex;
-}
-
-.comics-box__item:last-child {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  position: relative;
-  top: 366px;
-}
-
-.comics__box__title {
-  padding-top: 25px;
-  font-family: Arial, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 34px;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: #000000;
-}
-
 .man {
   padding-top: 407px;
 }
@@ -214,7 +189,7 @@ h1 .hero_u {
 }
 
 .man__box__text {
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 153px;
@@ -255,7 +230,7 @@ h1 .hero_u {
 
 .do__title {
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 400;
   font-size: 29px;
   line-height: 34px;
@@ -272,7 +247,7 @@ h1 .hero_u {
 
 .do__workers__text {
   margin: 21px 0 108px;
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 34px;
@@ -299,7 +274,7 @@ h1 .hero_u {
 }
 
 .hypnagogias__title {
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -310,7 +285,7 @@ h1 .hero_u {
 }
 
 .hypnagogias__text {
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 62px;
@@ -337,7 +312,7 @@ h1 .hero_u {
   top: 30%;
   right: 50%;
   transform: translate(50%, 50%);
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 27px;
@@ -347,12 +322,40 @@ h1 .hero_u {
   color: #9EA080;
 }
 
+.comics {
+  padding-top: 102px;
+}
+
+.comics-box {
+  display: flex;
+}
+
+.comics-box__item:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  top: 366px;
+}
+
+.comics__box__title {
+  padding-top: 25px;
+  font-family: Arial,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
 .eye {
   padding: 700px 0 93px;
 }
 
 .eye__title {
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 400;
   font-size: 112px;
   line-height: 95px;
@@ -407,7 +410,7 @@ footer {
 }
 
 .footer-nav__privacy {
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -419,17 +422,18 @@ footer {
   align-items: center;
   gap: 70px;
 }
+
 .footer-nav__list .social_link {
   text-decoration: none;
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #9FA080;
   transition: 250ms;
 }
+
 .footer-nav__list .social_link:hover {
   color: #FFFFFF;
 }
-
 /*# sourceMappingURL=main.css.map */
